@@ -1,1 +1,49 @@
+/* global style */
 
+body {
+  font-family: 'Helvetica Neue', 'Roboto', 'Verdana', sans-serif;
+  color: #2a2a2a;
+  background-color: #fafafa;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+/* header style */
+
+.portfolio-list {
+  box-sizing: border-box;
+}
+.portfolio-item {
+  width: 300px;
+  border-radius: 20%;
+  border: 2px solid black;
+  overflow: hidden;
+}
